@@ -6,7 +6,7 @@ import {
   Tooltip, ResponsiveContainer, Legend, ReferenceLine
 } from "recharts";
 
-const API = "http://127.0.0.1:5000";
+const API = "http://127.0.0.1:https://ai-traffic-backend-h4kt.onrender.com";
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
